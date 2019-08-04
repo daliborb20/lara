@@ -12,6 +12,16 @@ $zarada['koeficijent_prevoz'] = 0.90;
 
 //dodvanje u obican array:
 $obican_array[] = 'peti';
+//brisanje odredjenih delova iz array:
+unset($zarada['koeficijent_penzioner']);
 
-require "index.asoc.php"
+
+//echo-ing arrary:
+echo "<pre>";
+//koriscenje funkcije die(var_dump($zarada)); -> prikazi i ne radi nista vise
+var_dump($zarada);
+
+echo "</pre>";
+
+//require "index.asoc.php"
 ?>
