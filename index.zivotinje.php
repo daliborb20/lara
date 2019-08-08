@@ -13,7 +13,7 @@
 </head>
 <body>
 <ol>
-    <?php foreach($zivotinje as $ziv): ?>
+    <?php foreach ($zivotinje as $ziv): ?>
         <li class="zivotinja"><?= $ziv;   ?></li>
     <?php endforeach    ?> 
 

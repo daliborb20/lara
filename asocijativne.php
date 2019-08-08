@@ -1,7 +1,5 @@
 <?php
-
 $obican_array = ['prvi', 'drugi', 'treci', 'cetvrt'];
-
 $zarada = [
     'koeficijent_neto' => 0.701,
     'koeficijent_delu' => 1.23232,
@@ -24,4 +22,3 @@ var_dump($zarada);
 echo "</pre>";
 
 //require "index.asoc.php"
-?>

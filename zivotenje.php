@@ -1,6 +1,6 @@
 <?php
 $zivotinje = [
-    "macka", 
+    "macka",
     "svinja",
     "kokoska",
     "ajkula",
@@ -12,4 +12,3 @@ $zivotinje = [
 
 
 include "index.zivotinje.php";
-?>

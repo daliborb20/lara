@@ -4,10 +4,10 @@
 /*$zadaci = [*/
     //"zavrsen" => 'zavrsen',
     //"rok" => '31.12.2019.',
-    //"zaduzenje" => "roki balboa" 
+    //"zaduzenje" => "roki balboa"
 //];
 //
-$zadaci = [ 
+$zadaci = [
     'naslov' => 'Ispiti',
     'rok' => '28.08.2019',
     'zaduzenje' => 'Mirjana',

@@ -15,11 +15,11 @@
   <header>
      <h1>
 <?php
-foreach($niz as $ime){
+foreach ($niz as $ime) {
     echo "<li>$ime</li>";
 }
 ?>
-    <?php  foreach($niz as $ime2) :?>
+    <?php  foreach ($niz as $ime2) :?>
         <li><u> <?= $ime2; ?></u></li>
     <?php endforeach ?>
 

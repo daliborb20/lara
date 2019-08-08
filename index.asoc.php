@@ -13,7 +13,7 @@ color:white;
 </head>
 <body>
     <ul>
-    <?php foreach($zarada as $koeficijent => $vrednost):    ?>
+    <?php foreach ($zarada as $koeficijent => $vrednost):    ?>
        <li> <strong><?= $koeficijent . ": "?></strong><u><?= $vrednost ?></u></li>
     <?php endforeach    ?>
 

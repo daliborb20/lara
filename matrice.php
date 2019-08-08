@@ -1,9 +1,8 @@
 <?php
 $niz = [
-    'Dalibor', 
+    'Dalibor',
     'Bogicevci',
     'Aleksandar',
     'Bogicevic'
 ];
 require "index.view.php";
-?>
