@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Zadaci	.\klase.php	/^class Zadaci$/;"	c
+__construct	.\klase.php	/^    public function __construct($opis)$/;"	f
+opis	.\klase.php	/^    public $opis;$/;"	v
+opisZad	.\klase.php	/^    public function opisZad()$/;"	f
+zadace	.\klase.php	/^$zadace = [$/;"	v
+zadatakZavrsen	.\klase.php	/^    public function zadatakZavrsen()$/;"	f
+zavrsen	.\klase.php	/^    public $zavrsen = false;$/;"	v
+zavrsi	.\klase.php	/^    public function zavrsi()$/;"	f

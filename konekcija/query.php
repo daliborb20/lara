@@ -11,9 +11,15 @@ class QueryBuilder
     {
         $query = $this -> pdo -> prepare("select * from {$tabela}");
         $query -> execute();
-        return $query -> fetchAll(PDO::FETCH_CLASS, "Zadaci");
+        return $query -> fetchAll(PDO::FETCH_CLASS);
 
     }  
+    function izaberiPrvi($tabela)
+    {
+        $query = $this -> pdo -> prepare("select * from {$tabela} where rbr=2");
+        $query ->execute();
+        return $query -> fetchAll(PDO::FETCH_CLASS);
+    }
 }
 
 
